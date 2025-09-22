@@ -51,12 +51,17 @@
   "devDependencies": {
     "@antfu/eslint-config": "~4.1.0",
     "@iconify-json/ant-design": "~1.2.5",
+    "@iconify-json/logos": "~1.2.9",
     "@iconify-json/mdi": "~1.2.3",
     "@iconify-json/simple-icons": "~1.2.22",
     "@slidev/types": "~51.0.2",
     "@stackblitz/sdk": "~1.11.0",
+    "@tresjs/cientos": "~4.3.0",
+    "@tresjs/core": "~4.3.3",
+    "@tresjs/post-processing": "~2.3.1",
     "@tsconfig/node20": "~20.1.4",
     "@types/node": "~22.12.0",
+    "@types/three": "~0.175.0",
     "@vue/eslint-config-typescript": "~14.3.0",
     "codemirror-theme-vars": "~0.1.2",
     "eslint": "~9.19.0",
@@ -68,6 +73,7 @@
     "prettier-plugin-slidev": "~1.0.5",
     "prism-theme-vars": "~0.2.5",
     "qrcode.vue": "~3.6.0",
+    "three": "~0.175.0",
     "typescript": "~5.7.3",
     "vite-svg-loader": "~5.1.0"
   }

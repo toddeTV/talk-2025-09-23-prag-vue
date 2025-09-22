@@ -67,10 +67,12 @@ type foo = { bar: 2 }
 This project uses the following icon collections in descending order, try sticking to them and use from top to bottom.
 Tipp: Favorite them and use the search over all item collections at once: https://icon-sets.iconify.design/?list=favorite
 
-| full name               | shorthand      | license                                                         | note |
-| ----------------------- | -------------- | --------------------------------------------------------------- | ---- |
-| `Material Design Icons` | `mdi`          | Apache 2.0 (commercial use is allowed, no attribution required) |      |
-| `Simple Icons`          | `simple-icons` | CC0 1.0                                                         |      |
+| full name               | shorthand      | license                                                         | note                        |
+| ----------------------- | -------------- | --------------------------------------------------------------- | --------------------------- |
+| `Material Design Icons` | `mdi`          | Apache 2.0 (commercial use is allowed, no attribution required) |                             |
+| `Simple Icons`          | `simple-icons` | CC0 1.0                                                         | Monocolor logos, many.      |
+| `SVG Logos`             | `logos`        | CC0 1.0                                                         | Colored logos, not so many. |
+| `Ant Design Icons`      | `ant-design`   | MIT                                                             |                             |
 
 ## prod
 
@@ -104,12 +106,25 @@ _(Projects that provided valuable inspiration or resources.)_
 **Additional Tools:**<br>
 _(excluding those listed in `./package.json`)_
 
-- \[currently none\]
+- [excalidraw](https://excalidraw.com/) was used for sketching & drawing images.
 
 **Assets & Materials Used:**<br>
 _(including images & 3D models; mostly only those requiring attribution)_
 
 - Image `thorsten-seyschab.jpg` by [Franziska Kestel](https://franziskakestel.de/).
+- Image `WebGL.png` from [https://en.m.wikipedia.org/wiki/File:WebGL_Logo.svg](https://en.m.wikipedia.org/wiki/File:WebGL_Logo.svg), date 2025-06-04.
+- Image `ThreeJS.png` from [https://discourse.threejs.org/t/three-js-svg-logo/21835](https://discourse.threejs.org/t/three-js-svg-logo/21835), date 2025-06-04.
+- Image `supported-build-tools-from-unplugin.unjs.io.png` from [https://unplugin.unjs.io/](https://unplugin.unjs.io/), date 2025-06-04.
+- Image `gltf-type-toolkit-github-screenshot.png` from [https://github.com/toddeTV/gltf-type-toolkit](https://github.com/toddeTV/gltf-type-toolkit), date 2025-01-29.
+- Demo of Website [https://zlig.net](https://zlig.net).
+- 3D asset(s), Internally identified with ID `18`:
+  - Name: `Train Kit`
+  - Cost: free
+  - License: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) (commercial use allowed, no credits needed)
+  - Author: [Kenney](https://kenney.nl/)
+  - Downloaded:
+    - Date: 2025-03-04
+    - From: [kenney](https://kenney.nl/assets/train-kit)
 
 ## License
 

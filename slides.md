@@ -57,5 +57,85 @@ src: content/start.md
 ---
 
 ---
+src: content/talk-overview.md
+---
+
+---
+src: content/demo-zlig-old.md
+---
+
+---
+src: content/render-pipeline-with-showcase.md
+---
+
+---
+src: content/gltf-example.md
+---
+
+---
+src: content/talk-overview-js-ts-library.md
+---
+
+---
+src: content/js-ts-library.md
+---
+
+---
+src: content/talk-overview-vue-plugin.md
+---
+
+---
+src: content/vue-plugin.md
+---
+
+---
+src: content/talk-overview-nuxt-module.md
+---
+
+---
+src: content/nuxt-module.md
+---
+
+---
+src: content/nuxt-module-starter-code.md
+---
+
+---
+src: content/talk-overview-unplugin-unjs.md
+---
+
+---
+src: content/unplugin.md
+---
+
+---
+src: content/unplugin-overview.md
+---
+
+---
+src: content/unplugin-starter-code.md
+---
+
+---
+src: content/unplugin-build-tool-differentiation.md
+---
+
+---
+src: content/unplugin-overview-challenges.md
+---
+
+---
+src: content/gltf-type-toolkit.md
+---
+
+---
+src: content/demo-zlig-side-by-side.md
+---
+
+---
+src: content/talk-takeaway.md
+---
+
+---
 src: content/end.md
 ---

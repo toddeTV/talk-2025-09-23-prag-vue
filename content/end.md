@@ -21,13 +21,38 @@ layout: basic
         <QRCode content="https://github.com/toddeTV/talk-2025-09-23-prag-vue" :size="128" class="mb-6" />
         <div class="flex flex-col gap-2">
             <div class="whitespace-nowrap">
-                Presentation Slides Source
+                This Presentation Slides
             </div>
             <div class="w-full text-sm">
                 <mdi-github class="baseColor mx-2" />
                 <MyLink to="https://github.com/toddeTV/talk-2025-09-23-prag-vue">https://github.com/toddeTV/talk-2025-09-23-prag-vue</MyLink>
             </div>
         </div>
+    </div>
+    <div
+        class="p-4 text-sm"
+        v-mark="{ at: 0, color: '#26ab7a', type: 'box' }"
+    >
+        <table>
+            <tbody>
+                <tr>
+                    <td class="w-47">Zlig Browser Game</td>
+                    <td><MyLink to="https://zlig.net/">https://zlig.net/</MyLink></td>
+                </tr>
+                <tr>
+                    <td>gltf-type-toolkit</td>
+                    <td><MyLink to="https://github.com/toddeTV/gltf-type-toolkit">https://github.com/toddeTV/gltf-type-toolkit</MyLink></td>
+                </tr>
+                <tr>
+                    <td>gltf-type-toolkit talk</td>
+                    <td><MyLink to="https://github.com/toddeTV/talk-2025-06-04-frontend-nation">https://github.com/toddeTV/talk-2025-06-04-frontend-nation</MyLink></td>
+                </tr>
+                <tr>
+                    <td>3D in the web talk</td>
+                    <td><MyLink to="https://github.com/toddeTV/talk-2025-04-08-dev-day-conference">https://github.com/toddeTV/talk-2025-04-08-dev-day-conference</MyLink></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </div>
 
@@ -88,3 +113,9 @@ layout: basic
         </div>
     </div>
 </div>
+
+<!--
+- Enhance the Nuxt ecosystem.
+- Contribute to open-source.
+- It's easier than you think.
+-->

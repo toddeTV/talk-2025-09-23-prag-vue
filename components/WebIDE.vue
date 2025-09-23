@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import sdk from '@stackblitz/sdk'
-import { onMounted } from 'vue'
+import { onMounted, toRefs } from 'vue'
 
 const props = withDefaults(defineProps<{
   projectId: string // The StackBlitz project ID to embed.
@@ -25,20 +25,22 @@ const props = withDefaults(defineProps<{
   view: 'default',
 })
 
+const { clickToLoad, domElementId, forceEmbedLayout, hideExplorer, hideNavigation, openFile, projectId, showSidebar, theme, view } = toRefs(props)
+
 onMounted(() => {
   sdk.embedProjectId(
-    props.domElementId,
-    props.projectId,
+    domElementId.value,
+    projectId.value,
     {
       // crossOriginIsolated: true,
-      clickToLoad: props.clickToLoad,
-      forceEmbedLayout: props.forceEmbedLayout,
-      hideExplorer: props.hideExplorer,
-      hideNavigation: props.hideNavigation,
-      openFile: props.openFile,
-      showSidebar: props.showSidebar,
-      theme: props.theme,
-      view: props.view,
+      clickToLoad: clickToLoad.value,
+      forceEmbedLayout: forceEmbedLayout.value,
+      hideExplorer: hideExplorer.value,
+      hideNavigation: hideNavigation.value,
+      openFile: openFile.value,
+      showSidebar: showSidebar.value,
+      theme: theme.value,
+      view: view.value,
     },
   )
 })
@@ -46,7 +48,7 @@ onMounted(() => {
 
 <template>
   <div
-    :id="props.domElementId"
+    :id="domElementId"
     class="h-full w-full"
   />
 </template>

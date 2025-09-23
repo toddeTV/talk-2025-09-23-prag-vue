@@ -3,10 +3,23 @@ layout: cover
 leftOrientation: center
 ---
 
-<!-- <h1 class="!text-[2.8rem]"> -->
-<h1 class="!text-5xl">
-    How to Nuxt Modules
-</h1>
+<div class="relative">
+    <!-- <h1 class="!text-[2.8rem]"> -->
+    <h1 class="!text-5xl">
+        How to Nuxt Modules
+    </h1>
+    <h1 class="!text-5xl absolute -top-5xl w-fit" v-click="3">
+        How to Modularize
+    </h1>
+    <h1 class="!text-5xl absolute -top-7xl w-fit left-105 -rotate-15" v-click="3">
+        Nuxt&nbsp;/
+    </h1>
+    <h1 class="!text-5xl absolute -top-3xl w-fit left-120 rotate-5" v-click="3">
+        Vue
+    </h1>
+    <div class="absolute w-120 -left-3 top-6" v-mark="{ at: 3, color: '#ab2657', type: 'underline' }"></div>
+    <div class="absolute w-120 -left-3 top-5" v-mark="{ at: 3, color: '#ab2657', type: 'underline' }"></div>
+</div>
 
 <div class="flex flex-col relative">
     <div>
@@ -54,9 +67,9 @@ leftOrientation: center
         </div>
     </div>
     <ul class="absolute top-10 w-100" v-click="2">
-        <li><mdi-message-bubble-outline class="baseColor mr-2" /> Computer Scientist and Web Engineer</li>
-        <li><mdi-school-outline class="baseColor mr-2" /> Master of Science in Computer Science</li>
+        <li><mdi-message-bubble-outline class="baseColor mr-2" /> IT-Consultant and Web Engineer</li>
         <li><mdi-worker-outline class="baseColor mr-2"/> Fullstack developer, Self-Employed</li>
+        <li><mdi-school-outline class="baseColor mr-2" /> Master of Science in Computer Science</li>
         <!-- <li>based in Germany</li> -->
     </ul>
 </div>

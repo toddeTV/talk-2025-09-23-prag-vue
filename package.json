@@ -1,7 +1,7 @@
 {
   "name": "@todde.tv/talk-2025-09-23-prag-vue",
   "type": "module",
-  "version": "2025-09-23-rc.0",
+  "version": "2025-09-23",
   "packageManager": "pnpm@9.15.4",
   "description": "Slides for my talk titled `How to Nuxt Modules` on 2025-09-23 at the PragVue 2025 conference in Prague. ",
   "author": "Thorsten Seyschab <business@todde.tv> (https://todde.tv/)",

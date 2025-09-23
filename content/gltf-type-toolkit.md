@@ -15,7 +15,9 @@ layout: basic
     </div>
 </div>
 
-<img src="/assets/gltf-type-toolkit-github-screenshot.png" />
+<div class="flex justify-center">
+    <img src="/assets/gltf-type-toolkit-github-screenshot.png" class="w-[75%]" />
+</div>
 
 <!-- <div class="relative">
     <WindowWrapper

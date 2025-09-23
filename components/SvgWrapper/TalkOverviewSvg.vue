@@ -10,21 +10,19 @@ import mySvgContent5 from '/assets/excalidraw-drawings/talk-overview/talk-overvi
 import mySvgContent6 from '/assets/excalidraw-drawings/talk-overview/talk-overview-6_light.svg?raw'
 import mySvgContent7 from '/assets/excalidraw-drawings/talk-overview/talk-overview-7_light.svg?raw'
 import mySvgContent8 from '/assets/excalidraw-drawings/talk-overview/talk-overview-8_light.svg?raw'
+import mySvgContent9 from '/assets/excalidraw-drawings/talk-overview/talk-overview-9_light.svg?raw'
 
-const props = defineProps<{
-  forceClick?: number
-}>()
+const props = withDefaults(defineProps<{
+  clickStart?: number
+}>(), {
+  clickStart: 1,
+})
 
-const { forceClick } = toRefs(props)
+const { clickStart } = toRefs(props)
 
 const { clicks } = useNav()
 
-const click = computed(() => {
-  if (forceClick.value) {
-    return forceClick.value
-  }
-  return clicks.value
-})
+const click = computed(() => clicks.value + clickStart.value - 1)
 
 const mySvgContent = computed(() => {
   switch (click.value) {
@@ -44,6 +42,8 @@ const mySvgContent = computed(() => {
       return mySvgContent7
     case 8:
       return mySvgContent8
+    case 9:
+      return mySvgContent9
     default:
       return undefined
   }

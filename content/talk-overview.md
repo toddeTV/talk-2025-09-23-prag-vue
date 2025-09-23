@@ -9,7 +9,7 @@ layout: basic
 </div>
 
 <!-- dummy only to force the click count on this slide manually -->
-<div v-click="8" />
+<div v-click="4" />
 
 <!--
 - with real world example

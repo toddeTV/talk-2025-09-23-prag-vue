@@ -34,3 +34,7 @@ export const buildDetector: UnpluginFactory<Options, false> = () => ({
 })
 ```
 ````
+
+<!--
+In any `src/plugin/foo.ts` file.
+-->

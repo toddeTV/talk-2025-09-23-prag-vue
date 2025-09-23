@@ -24,4 +24,4 @@ layout: basic
   The Build Tools are different and unifying them is not easy!
 </div>
 
-<div class="absolute w-150 h-17 left-52 top-117" v-mark="{ at: 8, color: '#ab2657', type: 'box' }"></div>
+<div class="absolute w-150 h-17 left-52 top-117" v-mark="{ at: 7, color: '#ab2657', type: 'box' }"></div>

@@ -97,6 +97,10 @@ src: content/nuxt-module.md
 ---
 
 ---
+src: content/nuxt-module-starter-guide.md
+---
+
+---
 src: content/nuxt-module-starter-code.md
 ---
 

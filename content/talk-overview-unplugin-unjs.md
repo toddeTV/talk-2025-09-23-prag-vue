@@ -3,7 +3,8 @@ layout: basic
 ---
 
 <h1>
-    <logos:unjs class="baseColor mr-2" />UnJs/Unplugin
+    <!-- <logos:unjs class="baseColor mr-2" />UnJs/Unplugin -->
+    &nbsp;
 </h1>
 
 <div class="w-full h-[470px] flex justify-center items-center">

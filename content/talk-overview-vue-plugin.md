@@ -3,7 +3,8 @@ layout: basic
 ---
 
 <h1>
-    <logos:vue class="baseColor mr-2" />Vue Plugin
+    <!-- <logos:vue class="baseColor mr-2" />Vue Plugin -->
+    &nbsp;
 </h1>
 
 <div class="w-full h-[470px] flex justify-center items-center">

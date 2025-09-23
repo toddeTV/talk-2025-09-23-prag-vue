@@ -3,7 +3,8 @@ layout: basic
 ---
 
 <h1>
-    <logos:nuxt-icon class="baseColor mr-2" />Nuxt Module
+    <!-- <logos:nuxt-icon class="baseColor mr-2" />Nuxt Module -->
+    &nbsp;
 </h1>
 
 <div class="w-full h-[470px] flex justify-center items-center">

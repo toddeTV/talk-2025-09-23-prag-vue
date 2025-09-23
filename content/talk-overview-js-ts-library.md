@@ -3,7 +3,8 @@ layout: basic
 ---
 
 <h1>
-    <logos:javascript class="baseColor mr-2" />JS/TS Library
+    <!-- <logos:javascript class="baseColor mr-2" />JS/TS Library -->
+    &nbsp;
 </h1>
 
 <div class="w-full h-[470px] flex justify-center items-center">
